@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "L3-001",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-002",
+    "question": "What is the best way to ensure IPC reliability?",
+    "options": [
+      "Use UPS & cooling system",
+      "Install antivirus only",
+      "Disable networking",
+      "Overclock CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-003",
+    "question": "What is the best way to ensure IPC reliability?",
+    "options": [
+      "Use UPS & cooling system",
+      "Install antivirus only",
+      "Disable networking",
+      "Overclock CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-004",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-005",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-006",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-007",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-008",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-009",
+    "question": "What is the best troubleshooting method for faulty sensors?",
+    "options": [
+      "Bypass sensor",
+      "Check power & output signal",
+      "Replace PLC",
+      "Increase distance"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-010",
+    "question": "What is the best way to ensure IPC reliability?",
+    "options": [
+      "Use UPS & cooling system",
+      "Install antivirus only",
+      "Disable networking",
+      "Overclock CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-011",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-012",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-013",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-014",
+    "question": "A PLC output is not turning ON despite correct logic. Which is the most probable cause?",
+    "options": [
+      "Blown output fuse",
+      "Incorrect program",
+      "Low scan time",
+      "Faulty CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-015",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-016",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-017",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-018",
+    "question": "What is the best way to ensure IPC reliability?",
+    "options": [
+      "Use UPS & cooling system",
+      "Install antivirus only",
+      "Disable networking",
+      "Overclock CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-019",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-020",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-021",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-022",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-023",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-024",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-025",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-026",
+    "question": "A PLC output is not turning ON despite correct logic. Which is the most probable cause?",
+    "options": [
+      "Blown output fuse",
+      "Incorrect program",
+      "Low scan time",
+      "Faulty CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-027",
+    "question": "Which device helps troubleshoot air leakage in pneumatic lines?",
+    "options": [
+      "Flow meter",
+      "Pressure gauge",
+      "Ultrasonic leak detector",
+      "Relay"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-028",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-029",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-030",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-031",
+    "question": "A servo motor is oscillating during operation. What is the likely reason?",
+    "options": [
+      "Improper tuning of PID",
+      "Low lubrication",
+      "Encoder disconnected",
+      "Power overload"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-032",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-033",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-034",
+    "question": "In troubleshooting, what does a PLC fault light usually indicate?",
+    "options": [
+      "I/O module issue",
+      "Program halted",
+      "Communication error",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-035",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-036",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-037",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-038",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-039",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-040",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-041",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-042",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-043",
+    "question": "In troubleshooting, what does a PLC fault light usually indicate?",
+    "options": [
+      "I/O module issue",
+      "Program halted",
+      "Communication error",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-044",
+    "question": "In troubleshooting, what does a PLC fault light usually indicate?",
+    "options": [
+      "I/O module issue",
+      "Program halted",
+      "Communication error",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-045",
+    "question": "An IPC crashes during runtime. What is the most probable cause?",
+    "options": [
+      "Faulty OS drivers",
+      "Wrong PLC code",
+      "Loose pneumatic line",
+      "Servo misalignment"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-046",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-047",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-048",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-049",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-050",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-051",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-052",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-053",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-054",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-055",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-056",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-057",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-058",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-059",
+    "question": "What is the best way to ensure IPC reliability?",
+    "options": [
+      "Use UPS & cooling system",
+      "Install antivirus only",
+      "Disable networking",
+      "Overclock CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-060",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-061",
+    "question": "Which device helps troubleshoot air leakage in pneumatic lines?",
+    "options": [
+      "Flow meter",
+      "Pressure gauge",
+      "Ultrasonic leak detector",
+      "Relay"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-062",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-063",
+    "question": "An IPC crashes during runtime. What is the most probable cause?",
+    "options": [
+      "Faulty OS drivers",
+      "Wrong PLC code",
+      "Loose pneumatic line",
+      "Servo misalignment"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-064",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-065",
+    "question": "In troubleshooting, what does a PLC fault light usually indicate?",
+    "options": [
+      "I/O module issue",
+      "Program halted",
+      "Communication error",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-066",
+    "question": "In troubleshooting, what does a PLC fault light usually indicate?",
+    "options": [
+      "I/O module issue",
+      "Program halted",
+      "Communication error",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-067",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-068",
+    "question": "How do you minimize scan time in a PLC program?",
+    "options": [
+      "Optimize logic",
+      "Add more rungs",
+      "Use slower CPU",
+      "Add redundant PLC"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-069",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-070",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-071",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-072",
+    "question": "How do you minimize scan time in a PLC program?",
+    "options": [
+      "Optimize logic",
+      "Add more rungs",
+      "Use slower CPU",
+      "Add redundant PLC"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-073",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-074",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-075",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-076",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-077",
+    "question": "What is the best way to ensure IPC reliability?",
+    "options": [
+      "Use UPS & cooling system",
+      "Install antivirus only",
+      "Disable networking",
+      "Overclock CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-078",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-079",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-080",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-081",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-082",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-083",
+    "question": "A PLC output is not turning ON despite correct logic. Which is the most probable cause?",
+    "options": [
+      "Blown output fuse",
+      "Incorrect program",
+      "Low scan time",
+      "Faulty CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-084",
+    "question": "Which device helps troubleshoot air leakage in pneumatic lines?",
+    "options": [
+      "Flow meter",
+      "Pressure gauge",
+      "Ultrasonic leak detector",
+      "Relay"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-085",
+    "question": "What is the best way to ensure IPC reliability?",
+    "options": [
+      "Use UPS & cooling system",
+      "Install antivirus only",
+      "Disable networking",
+      "Overclock CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-086",
+    "question": "What is the best troubleshooting method for faulty sensors?",
+    "options": [
+      "Bypass sensor",
+      "Check power & output signal",
+      "Replace PLC",
+      "Increase distance"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-087",
+    "question": "Robot arm stops unexpectedly during operation. Which is the most probable cause?",
+    "options": [
+      "Emergency stop triggered",
+      "Payload within limit",
+      "High accuracy mode",
+      "Power factor correction"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-088",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-089",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-090",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-091",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-092",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-093",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-094",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-095",
+    "question": "Robot arm stops unexpectedly during operation. Which is the most probable cause?",
+    "options": [
+      "Emergency stop triggered",
+      "Payload within limit",
+      "High accuracy mode",
+      "Power factor correction"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-096",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-097",
+    "question": "An IPC crashes during runtime. What is the most probable cause?",
+    "options": [
+      "Faulty OS drivers",
+      "Wrong PLC code",
+      "Loose pneumatic line",
+      "Servo misalignment"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-098",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-099",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-100",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-101",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-102",
+    "question": "In troubleshooting, what does a PLC fault light usually indicate?",
+    "options": [
+      "I/O module issue",
+      "Program halted",
+      "Communication error",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-103",
+    "question": "A servo motor is oscillating during operation. What is the likely reason?",
+    "options": [
+      "Improper tuning of PID",
+      "Low lubrication",
+      "Encoder disconnected",
+      "Power overload"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-104",
+    "question": "A PLC output is not turning ON despite correct logic. Which is the most probable cause?",
+    "options": [
+      "Blown output fuse",
+      "Incorrect program",
+      "Low scan time",
+      "Faulty CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-105",
+    "question": "An IPC crashes during runtime. What is the most probable cause?",
+    "options": [
+      "Faulty OS drivers",
+      "Wrong PLC code",
+      "Loose pneumatic line",
+      "Servo misalignment"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-106",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-107",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-108",
+    "question": "Robot arm stops unexpectedly during operation. Which is the most probable cause?",
+    "options": [
+      "Emergency stop triggered",
+      "Payload within limit",
+      "High accuracy mode",
+      "Power factor correction"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-109",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-110",
+    "question": "In troubleshooting, what does a PLC fault light usually indicate?",
+    "options": [
+      "I/O module issue",
+      "Program halted",
+      "Communication error",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-111",
+    "question": "A servo motor is oscillating during operation. What is the likely reason?",
+    "options": [
+      "Improper tuning of PID",
+      "Low lubrication",
+      "Encoder disconnected",
+      "Power overload"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-112",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-113",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-114",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-115",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-116",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-117",
+    "question": "What is the best troubleshooting method for faulty sensors?",
+    "options": [
+      "Bypass sensor",
+      "Check power & output signal",
+      "Replace PLC",
+      "Increase distance"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-118",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-119",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-120",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-121",
+    "question": "What is the best way to ensure IPC reliability?",
+    "options": [
+      "Use UPS & cooling system",
+      "Install antivirus only",
+      "Disable networking",
+      "Overclock CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-122",
+    "question": "A servo motor is oscillating during operation. What is the likely reason?",
+    "options": [
+      "Improper tuning of PID",
+      "Low lubrication",
+      "Encoder disconnected",
+      "Power overload"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-123",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-124",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-125",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-126",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-127",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-128",
+    "question": "In troubleshooting, what does a PLC fault light usually indicate?",
+    "options": [
+      "I/O module issue",
+      "Program halted",
+      "Communication error",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-129",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-130",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-131",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-132",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-133",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-134",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-135",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-136",
+    "question": "Robot arm stops unexpectedly during operation. Which is the most probable cause?",
+    "options": [
+      "Emergency stop triggered",
+      "Payload within limit",
+      "High accuracy mode",
+      "Power factor correction"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-137",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-138",
+    "question": "An IPC crashes during runtime. What is the most probable cause?",
+    "options": [
+      "Faulty OS drivers",
+      "Wrong PLC code",
+      "Loose pneumatic line",
+      "Servo misalignment"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-139",
+    "question": "Robot arm stops unexpectedly during operation. Which is the most probable cause?",
+    "options": [
+      "Emergency stop triggered",
+      "Payload within limit",
+      "High accuracy mode",
+      "Power factor correction"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-140",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-141",
+    "question": "A PLC output is not turning ON despite correct logic. Which is the most probable cause?",
+    "options": [
+      "Blown output fuse",
+      "Incorrect program",
+      "Low scan time",
+      "Faulty CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-142",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-143",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-144",
+    "question": "An IPC crashes during runtime. What is the most probable cause?",
+    "options": [
+      "Faulty OS drivers",
+      "Wrong PLC code",
+      "Loose pneumatic line",
+      "Servo misalignment"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-145",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-146",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-147",
+    "question": "An IPC crashes during runtime. What is the most probable cause?",
+    "options": [
+      "Faulty OS drivers",
+      "Wrong PLC code",
+      "Loose pneumatic line",
+      "Servo misalignment"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-148",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-149",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-150",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-151",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-152",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-153",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-154",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-155",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-156",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-157",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-158",
+    "question": "A servo motor is oscillating during operation. What is the likely reason?",
+    "options": [
+      "Improper tuning of PID",
+      "Low lubrication",
+      "Encoder disconnected",
+      "Power overload"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-159",
+    "question": "Robot arm stops unexpectedly during operation. Which is the most probable cause?",
+    "options": [
+      "Emergency stop triggered",
+      "Payload within limit",
+      "High accuracy mode",
+      "Power factor correction"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-160",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-161",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-162",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-163",
+    "question": "Which device helps troubleshoot air leakage in pneumatic lines?",
+    "options": [
+      "Flow meter",
+      "Pressure gauge",
+      "Ultrasonic leak detector",
+      "Relay"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-164",
+    "question": "A proximity sensor detects inconsistently. What is the likely issue?",
+    "options": [
+      "Target material issue",
+      "Wrong supply voltage",
+      "Sensor misalignment",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-165",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-166",
+    "question": "In robotics troubleshooting, repeatability errors are usually due to:",
+    "options": [
+      "Mechanical wear",
+      "Program logic error",
+      "Sensor drift",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-167",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-168",
+    "question": "An IPC crashes during runtime. What is the most probable cause?",
+    "options": [
+      "Faulty OS drivers",
+      "Wrong PLC code",
+      "Loose pneumatic line",
+      "Servo misalignment"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-169",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-170",
+    "question": "A PLC output is not turning ON despite correct logic. Which is the most probable cause?",
+    "options": [
+      "Blown output fuse",
+      "Incorrect program",
+      "Low scan time",
+      "Faulty CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-171",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-172",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-173",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-174",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-175",
+    "question": "Stepper motor skips steps under load because:",
+    "options": [
+      "Insufficient torque",
+      "High inertia",
+      "Improper acceleration profile",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-176",
+    "question": "An IPC crashes during runtime. What is the most probable cause?",
+    "options": [
+      "Faulty OS drivers",
+      "Wrong PLC code",
+      "Loose pneumatic line",
+      "Servo misalignment"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-177",
+    "question": "Robot arm stops unexpectedly during operation. Which is the most probable cause?",
+    "options": [
+      "Emergency stop triggered",
+      "Payload within limit",
+      "High accuracy mode",
+      "Power factor correction"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-178",
+    "question": "Which device helps troubleshoot air leakage in pneumatic lines?",
+    "options": [
+      "Flow meter",
+      "Pressure gauge",
+      "Ultrasonic leak detector",
+      "Relay"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-179",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-180",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-181",
+    "question": "In troubleshooting Ethernet/IP, high packet loss indicates:",
+    "options": [
+      "Faulty cable or switch",
+      "Wrong PLC program",
+      "Sensor malfunction",
+      "Overcurrent"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-182",
+    "question": "Robot arm stops unexpectedly during operation. Which is the most probable cause?",
+    "options": [
+      "Emergency stop triggered",
+      "Payload within limit",
+      "High accuracy mode",
+      "Power factor correction"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-183",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-184",
+    "question": "How do you minimize scan time in a PLC program?",
+    "options": [
+      "Optimize logic",
+      "Add more rungs",
+      "Use slower CPU",
+      "Add redundant PLC"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-185",
+    "question": "What is the best troubleshooting method for faulty sensors?",
+    "options": [
+      "Bypass sensor",
+      "Check power & output signal",
+      "Replace PLC",
+      "Increase distance"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-186",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-187",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-188",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-189",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-190",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-191",
+    "question": "Motor does not start despite control signal. First check should be:",
+    "options": [
+      "Power supply",
+      "PLC program",
+      "Ethernet cable",
+      "IPC software"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-192",
+    "question": "What is the best troubleshooting method for faulty sensors?",
+    "options": [
+      "Bypass sensor",
+      "Check power & output signal",
+      "Replace PLC",
+      "Increase distance"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-193",
+    "question": "Overheating of contactors is mostly caused by:",
+    "options": [
+      "Loose connections",
+      "High resistance",
+      "Overload",
+      "All of the above"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-194",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-195",
+    "question": "A PLC output is not turning ON despite correct logic. Which is the most probable cause?",
+    "options": [
+      "Blown output fuse",
+      "Incorrect program",
+      "Low scan time",
+      "Faulty CPU"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-196",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-197",
+    "question": "A pneumatic cylinder is moving slowly. Which is the MOST likely cause?",
+    "options": [
+      "Low air pressure",
+      "Over-voltage",
+      "Sensor failure",
+      "Wrong PLC code"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-198",
+    "question": "Lighting variation in vision systems causes:",
+    "options": [
+      "Higher accuracy",
+      "Unstable detection",
+      "Reduced contrast",
+      "No effect"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-199",
+    "question": "A Modbus RTU device is not communicating. First step should be:",
+    "options": [
+      "Check baud rate and parity",
+      "Restart PLC",
+      "Replace cable immediately",
+      "Change protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L3-200",
+    "question": "What troubleshooting step is most effective when images are blurred?",
+    "options": [
+      "Increase shutter speed",
+      "Reduce lens size",
+      "Change PLC scan time",
+      "Add delay in logic"
+    ],
+    "correctindex": 0
+  }
+]

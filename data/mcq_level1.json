@@ -1,0 +1,2222 @@
+[
+  {
+    "id": "L1-001",
+    "question": "What does PLC stand for?",
+    "options": [
+      "Programmable Logic Controller",
+      "Process Level Computer",
+      "Primary Logic Circuit",
+      "Programmable Load Cell"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-002",
+    "question": "Which programming language uses ladder-like diagrams in PLCs?",
+    "options": [
+      "Structured Text",
+      "Ladder Diagram",
+      "Function Block Diagram",
+      "Instruction List"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-003",
+    "question": "Which PLC memory type retains data after power off?",
+    "options": [
+      "RAM",
+      "ROM",
+      "EEPROM",
+      "Cache"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-004",
+    "question": "What is the typical power supply for PLCs?",
+    "options": [
+      "24 VDC",
+      "110 VAC",
+      "400 VAC",
+      "5 VDC"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-005",
+    "question": "The PLC scan cycle order is commonly:",
+    "options": [
+      "Output → Input → Program",
+      "Input → Program → Output",
+      "Program → Input → Output",
+      "Input → Output → Program"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-006",
+    "question": "A NO contact in ladder is drawn as:",
+    "options": [
+      "|/|",
+      "| |",
+      "( )",
+      "[ ]"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-007",
+    "question": "Which device connects field I/O to PLC inputs?",
+    "options": [
+      "Encoder",
+      "Transducer",
+      "Sensor/Actuator",
+      "Router"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-008",
+    "question": "Which module is used to drive solenoid valves?",
+    "options": [
+      "Analog Input",
+      "Digital Output",
+      "Analog Output",
+      "Communication"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-009",
+    "question": "HMI stands for:",
+    "options": [
+      "Human Machine Interface",
+      "High Motor Interface",
+      "Human Motion Input",
+      "Hardware Management Interface"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-010",
+    "question": "Which PLC data type stores TRUE/FALSE?",
+    "options": [
+      "REAL",
+      "INT",
+      "BOOL",
+      "DINT"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-011",
+    "question": "Which timer counts a fixed time delay?",
+    "options": [
+      "TON",
+      "TOF",
+      "TP",
+      "HSC"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-012",
+    "question": "Which counter increases by rising edges?",
+    "options": [
+      "CTU",
+      "CTD",
+      "TON",
+      "PID"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-013",
+    "question": "Which is NOT a common IEC 61131-3 language?",
+    "options": [
+      "Ladder Diagram",
+      "Python",
+      "Structured Text",
+      "Function Block Diagram"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-014",
+    "question": "An analog input 4–20 mA typically maps to:",
+    "options": [
+      "0–1",
+      "0–10 V",
+      "Engineering units via scaling",
+      "Digital pulses"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-015",
+    "question": "Which instruction latches a coil until reset?",
+    "options": [
+      "SET/RESET",
+      "MOVE",
+      "ADD",
+      "CMP"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-016",
+    "question": "What is a typical use of a PID block in PLCs?",
+    "options": [
+      "Graphics",
+      "Motion planning",
+      "Closed-loop control",
+      "Data logging"
+    ],
+    "correctindex": 2
+  },
+  {
+    "id": "L1-017",
+    "question": "Which communication is common for PLC-HMI?",
+    "options": [
+      "SMTP",
+      "EtherNet/IP",
+      "FTP",
+      "NTP"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-018",
+    "question": "For safety E-stop, you should use:",
+    "options": [
+      "Software-only stop",
+      "Standard input",
+      "Safety-rated relay/circuit",
+      "HMI stop button only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-019",
+    "question": "What unit is PLC scan time measured in?",
+    "options": [
+      "Hours",
+      "Seconds",
+      "Milliseconds",
+      "Days"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-020",
+    "question": "Which module reads a thermocouple?",
+    "options": [
+      "Digital Input",
+      "RTD module",
+      "Analog Input with TC module",
+      "Relay Output"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-021",
+    "question": "What does forcing an I/O point do?",
+    "options": [
+      "Deletes it",
+      "Simulates a state",
+      "Speeds the scan",
+      "Saves the program"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-022",
+    "question": "Which addressing is typical in PLCs?",
+    "options": [
+      "Bit/Word addresses",
+      "IP/Port only",
+      "MAC addresses",
+      "URL aliases"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-023",
+    "question": "Upload in PLC terms means:",
+    "options": [
+      "From PLC to PC",
+      "From PC to PLC",
+      "To cloud only",
+      "To HMI only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-024",
+    "question": "Which file usually stores PLC logic?",
+    "options": [
+      "Spreadsheet",
+      "Project file",
+      "Bitmap",
+      "Audio"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-025",
+    "question": "What is retentive memory used for?",
+    "options": [
+      "Temporary values",
+      "Values that must survive power loss",
+      "Faster logic",
+      "Networking"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-026",
+    "question": "Which module provides relay isolation?",
+    "options": [
+      "High-speed counter",
+      "Transistor output",
+      "Relay output",
+      "Analog input"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-027",
+    "question": "Interlocking in PLC logic is used to:",
+    "options": [
+      "Speed up CPU",
+      "Protect sequences from unsafe states",
+      "Add graphics",
+      "Reduce memory"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-028",
+    "question": "Which is a typical analog signal type?",
+    "options": [
+      "8–16 V",
+      "0–10 V",
+      "50–60 V",
+      "120–240 V"
+    ],
+    "correctindex": 1
+  },
+  {
+    "id": "L1-029",
+    "question": "What is a rung in ladder logic?",
+    "options": [
+      "A variable",
+      "A memory chip",
+      "A horizontal logic network",
+      "A PLC rack"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-030",
+    "question": "What is the purpose of comments in code?",
+    "options": [
+      "Execution",
+      "Debugging clarity",
+      "Networking",
+      "Memory retention"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-031",
+    "question": "Which sensor detects ferrous metal without contact?",
+    "options": [
+      "Inductive proximity",
+      "Capacitive proximity",
+      "Photoelectric diffuse",
+      "Ultrasonic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-032",
+    "question": "A capacitive sensor best detects:",
+    "options": [
+      "Wood",
+      "Water level",
+      "Steel",
+      "Magnet"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-033",
+    "question": "Which sensor needs a reflector?",
+    "options": [
+      "Retroreflective photoelectric",
+      "Inductive",
+      "Capacitive",
+      "Thermocouple"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-034",
+    "question": "Thermocouple measures:",
+    "options": [
+      "Pressure",
+      "Flow",
+      "Temperature",
+      "Level"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-035",
+    "question": "An RTD typically uses which element?",
+    "options": [
+      "Platinum",
+      "Copper sulfate",
+      "Silicon",
+      "Sodium"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-036",
+    "question": "Which sensor measures linear position?",
+    "options": [
+      "LVDT",
+      "Gyroscope",
+      "Accelerometer",
+      "Microphone"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-037",
+    "question": "Which sensor outputs frequency proportional to speed?",
+    "options": [
+      "Tachometer",
+      "Load cell",
+      "RTD",
+      "pH probe"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-038",
+    "question": "A load cell measures:",
+    "options": [
+      "Torque",
+      "Force/Weight",
+      "Temperature",
+      "Light"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-039",
+    "question": "Which sensor detects transparent bottles reliably?",
+    "options": [
+      "Through-beam photoelectric",
+      "Inductive",
+      "Capacitive",
+      "Reed switch"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-040",
+    "question": "Ultrasonic sensors are strong at measuring:",
+    "options": [
+      "Color",
+      "Distance to soft targets",
+      "Magnetic flux",
+      "Current"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-041",
+    "question": "Which affects inductive sensor range most?",
+    "options": [
+      "Target conductivity",
+      "Target transparency",
+      "Target temperature",
+      "Target color"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-042",
+    "question": "Infrared temperature sensors measure:",
+    "options": [
+      "Core temperature directly",
+      "Surface radiation",
+      "Ambient humidity",
+      "Pressure"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-043",
+    "question": "Hall-effect sensors detect:",
+    "options": [
+      "Sound",
+      "Magnetic field",
+      "Radiation",
+      "Light color"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-044",
+    "question": "An encoder provides:",
+    "options": [
+      "Position/Speed pulses",
+      "Analog voltage only",
+      "Temperature",
+      "Pressure"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-045",
+    "question": "2-wire DC proximity sensors commonly are:",
+    "options": [
+      "PNP",
+      "NPN",
+      "Loop-powered",
+      "Relay"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-046",
+    "question": "A photoeye false-trigger from ambient light is reduced by:",
+    "options": [
+      "Using AC power",
+      "Proper shielding and modulation",
+      "Raising threshold randomly",
+      "Painting target"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-047",
+    "question": "Which sensor reads barcodes?",
+    "options": [
+      "RFID tag",
+      "Laser scanner",
+      "Inductive sensor",
+      "RTD"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-048",
+    "question": "Color sensors determine:",
+    "options": [
+      "Hue/saturation",
+      "Mass",
+      "Force",
+      "Frequency"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-049",
+    "question": "Which unit expresses illuminance?",
+    "options": [
+      "Lux",
+      "Tesla",
+      "Pascal",
+      "Ohm"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-050",
+    "question": "A reed switch operates by:",
+    "options": [
+      "Heat",
+      "Magnetic field",
+      "Light",
+      "Pressure"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-051",
+    "question": "Pneumatics primarily uses:",
+    "options": [
+      "Compressed air",
+      "Hydraulic oil",
+      "Water",
+      "Steam"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-052",
+    "question": "A FRL unit stands for:",
+    "options": [
+      "Filter, Regulator, Lubricator",
+      "Flow, Relief, Level",
+      "Filter, Restrictor, Latch",
+      "Flow, Regulator, Latch"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-053",
+    "question": "Which valve changes cylinder direction?",
+    "options": [
+      "5/2 directional valve",
+      "Relief valve",
+      "Needle valve",
+      "Check valve"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-054",
+    "question": "A double-acting cylinder requires:",
+    "options": [
+      "One air line",
+      "Two air lines",
+      "No air line",
+      "Hydraulic pump"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-055",
+    "question": "Pressure is measured in:",
+    "options": [
+      "Newton",
+      "Pascal/Bar",
+      "Ampere",
+      "Lux"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-056",
+    "question": "Which device removes water from air?",
+    "options": [
+      "Aftercooler and filter",
+      "Flow meter",
+      "Pressure switch",
+      "Shuttle valve"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-057",
+    "question": "The symbol ▷◁ in pneumatics often denotes:",
+    "options": [
+      "Compressor",
+      "Directional valve",
+      "Cylinder",
+      "Reservoir"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-058",
+    "question": "A quick exhaust valve is used to:",
+    "options": [
+      "Increase exhaust speed",
+      "Lubricate air",
+      "Reduce pressure",
+      "Silence noise"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-059",
+    "question": "A flow control with check valve gives:",
+    "options": [
+      "Meter-in/out control",
+      "No control",
+      "Pressure relief",
+      "Direction change"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-060",
+    "question": "Silencers are installed at:",
+    "options": [
+      "Supply port",
+      "Exhaust ports",
+      "Cylinder body",
+      "Regulator outlet"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-061",
+    "question": "Which is typical plant air pressure?",
+    "options": [
+      "0.2 bar",
+      "1 bar",
+      "6 bar",
+      "20 bar"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-062",
+    "question": "Air leaks cause:",
+    "options": [
+      "Energy loss",
+      "Higher torque",
+      "More lubrication",
+      "Cleaner air"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-063",
+    "question": "A rodless cylinder provides:",
+    "options": [
+      "Rotary motion",
+      "Long stroke in compact length",
+      "Hydraulic damping only",
+      "Vacuum only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-064",
+    "question": "A pressure regulator maintains:",
+    "options": [
+      "Constant flow",
+      "Constant pressure downstream",
+      "Constant temperature",
+      "Constant humidity"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-065",
+    "question": "Which diagram shows timing of actuators?",
+    "options": [
+      "P&ID",
+      "Gantt",
+      "Displacement-time diagram",
+      "Single-line"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-066",
+    "question": "A vacuum generator (ejector) uses:",
+    "options": [
+      "Electricity only",
+      "Compressed air venturi",
+      "Hydraulic power",
+      "Gravity"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-067",
+    "question": "A shuttle valve functions as:",
+    "options": [
+      "OR logic",
+      "AND logic",
+      "NOT logic",
+      "XOR logic"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-068",
+    "question": "A non-return valve is a:",
+    "options": [
+      "Needle valve",
+      "Check valve",
+      "Globe valve",
+      "Gate valve"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-069",
+    "question": "Which component adds oil mist?",
+    "options": [
+      "Lubricator",
+      "Filter",
+      "Dryer",
+      "Receiver"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-070",
+    "question": "Cushioning in cylinders is used to:",
+    "options": [
+      "Increase speed",
+      "Smooth end-of-stroke",
+      "Reduce air usage",
+      "Seal leaks"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-071",
+    "question": "A servo system usually includes:",
+    "options": [
+      "Motor + drive + feedback",
+      "Motor only",
+      "Drive only",
+      "Gearbox only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-072",
+    "question": "A stepper motor moves in:",
+    "options": [
+      "Continuous rotation only",
+      "Discrete steps",
+      "Random increments",
+      "Vibration only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-073",
+    "question": "Common feedback in servos:",
+    "options": [
+      "Encoder",
+      "Potentiometer only",
+      "No feedback",
+      "Thermistor"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-074",
+    "question": "Stepper motor typical control:",
+    "options": [
+      "PWM only",
+      "Open-loop pulse train",
+      "Analog current loop",
+      "AC mains"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-075",
+    "question": "Which parameter sets servo stiffness?",
+    "options": [
+      "Gain tuning",
+      "IP address",
+      "Cable gauge",
+      "Mounting holes"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-076",
+    "question": "Which causes servo hunting?",
+    "options": [
+      "Correct tuning",
+      "Over/under gain",
+      "Proper grounding",
+      "Low inertia match"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-077",
+    "question": "Which drive mode keeps position?",
+    "options": [
+      "Position mode",
+      "Speed mode",
+      "Torque mode",
+      "Sleep mode"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-078",
+    "question": "Microstepping in steppers improves:",
+    "options": [
+      "Holding torque only",
+      "Resolution/smoothness",
+      "Voltage rating",
+      "Heat sink size"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-079",
+    "question": "An absolute encoder retains:",
+    "options": [
+      "Position after power loss",
+      "Speed only",
+      "Temperature",
+      "Phase angle only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-080",
+    "question": "Backlash is reduced by:",
+    "options": [
+      "Loose couplings",
+      "Preloaded mechanics",
+      "Long cables",
+      "Higher voltage"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-081",
+    "question": "Which unit expresses motor torque?",
+    "options": [
+      "Newton-meter",
+      "Watt",
+      "Hertz",
+      "Volt"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-082",
+    "question": "Servo overcurrent may be caused by:",
+    "options": [
+      "Light load",
+      "Shorted phases",
+      "Proper tuning",
+      "Cooling fan"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-083",
+    "question": "Inertia mismatch leads to:",
+    "options": [
+      "Stable response",
+      "Oscillation/overshoot",
+      "Lower resolution",
+      "Higher supply voltage"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-084",
+    "question": "Home switch is used to:",
+    "options": [
+      "Stop permanently",
+      "Establish reference position",
+      "Measure speed",
+      "Protect power"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-085",
+    "question": "Which cable carries encoder signals?",
+    "options": [
+      "Power cable",
+      "Feedback cable",
+      "Pneumatic hose",
+      "Ethernet only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-086",
+    "question": "Stepper loses steps when:",
+    "options": [
+      "Over-torqued/accelerated",
+      "Correctly sized",
+      "Properly cooled",
+      "Low inertia"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-087",
+    "question": "Servo alarm 'overheat' suggests:",
+    "options": [
+      "Low ambient temp",
+      "Cooling issues or overload",
+      "Encoder fault only",
+      "Communication OK"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-088",
+    "question": "Which profile is common for motion?",
+    "options": [
+      "Trapezoidal/S-curve",
+      "Random",
+      "Binary",
+      "Exponential decay"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-089",
+    "question": "Braking resistor is used to:",
+    "options": [
+      "Increase speed",
+      "Dissipate regen energy",
+      "Tune PID",
+      "Filter noise"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-090",
+    "question": "Torque ripple is usually lower in:",
+    "options": [
+      "Steppers",
+      "Servos",
+      "Neither",
+      "Both same"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-091",
+    "question": "Machine vision primarily does:",
+    "options": [
+      "Image storage",
+      "Automated inspection/measurement",
+      "Manual viewing",
+      "3D printing"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-092",
+    "question": "Which lighting reduces shadows around parts?",
+    "options": [
+      "Ring light",
+      "Spot light",
+      "Ambient lamp",
+      "Strobe only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-093",
+    "question": "Backlighting is best for:",
+    "options": [
+      "Edge detection/silhouette",
+      "Color analysis",
+      "Barcode reading only",
+      "3D depth"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-094",
+    "question": "A lens focal length affects:",
+    "options": [
+      "Field of view",
+      "Voltage",
+      "Current",
+      "IP rating"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-095",
+    "question": "Monochrome cameras are preferred for:",
+    "options": [
+      "Color sorting",
+      "High-contrast measurement",
+      "Audio capture",
+      "Networking"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-096",
+    "question": "Exposure time too long causes:",
+    "options": [
+      "Motion blur",
+      "Sharper image",
+      "Lower brightness",
+      "Lower noise"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-097",
+    "question": "Depth of field increases with:",
+    "options": [
+      "Larger aperture (low f#)",
+      "Smaller aperture (high f#)",
+      "Higher ISO",
+      "Shorter cable"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-098",
+    "question": "Which interface is common in industry cameras?",
+    "options": [
+      "USB/Ethernet",
+      "RS-232 only",
+      "VGA",
+      "HDMI only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-099",
+    "question": "A polarizer helps to:",
+    "options": [
+      "Increase saturation",
+      "Reduce glare reflections",
+      "Increase noise",
+      "Create blur"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-100",
+    "question": "Gray-scale value range (8-bit) is:",
+    "options": [
+      "0–100",
+      "0–255",
+      "0–1023",
+      "1–10"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-101",
+    "question": "Which algorithm finds straight lines?",
+    "options": [
+      "Hough transform",
+      "K-means",
+      "FFT",
+      "Kalman"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-102",
+    "question": "Thresholding separates:",
+    "options": [
+      "Voltage levels",
+      "Foreground from background",
+      "Noise from heat",
+      "Color from sound"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-103",
+    "question": "Binning on a camera:",
+    "options": [
+      "Reduces resolution, increases SNR",
+      "Increases resolution",
+      "Adds blur",
+      "Adds color"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-104",
+    "question": "GigE Vision is a:",
+    "options": [
+      "Lens",
+      "Lighting",
+      "Network camera standard",
+      "Robot protocol"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-105",
+    "question": "Lens distortion is corrected by:",
+    "options": [
+      "Flat-fielding",
+      "Calibration/undistortion",
+      "Increasing exposure",
+      "Lower ISO"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-106",
+    "question": "OCR in vision stands for:",
+    "options": [
+      "Optical Character Recognition",
+      "Optimal Camera Resolution",
+      "Optical Cable Routing",
+      "Operator Control Room"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-107",
+    "question": "A barcode of squares is:",
+    "options": [
+      "Code 128",
+      "UPC-A",
+      "Data Matrix",
+      "EAN-13"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-108",
+    "question": "Shadows in images can be reduced by:",
+    "options": [
+      "Backlight & diffusers",
+      "Higher ISO only",
+      "Longer exposure",
+      "Random focus"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-109",
+    "question": "A telecentric lens provides:",
+    "options": [
+      "Perspective-free imaging",
+      "More blur",
+      "Lower contrast",
+      "Color correction only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-110",
+    "question": "Image noise commonly reduced by:",
+    "options": [
+      "Averaging/filters",
+      "Higher temperature",
+      "Lower bit depth",
+      "Shorter focal length"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-111",
+    "question": "A robot's DOF refers to:",
+    "options": [
+      "Degrees of Freedom",
+      "Depth of Field",
+      "Data of Frame",
+      "Degree of Force"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-112",
+    "question": "Teach pendant is used to:",
+    "options": [
+      "Power robot",
+      "Manually program/teach",
+      "Lubricate joints",
+      "Change voltage"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-113",
+    "question": "Joint 1 in 6-axis robot typically is the:",
+    "options": [
+      "Base rotation",
+      "Wrist pitch",
+      "Elbow",
+      "Gripper"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-114",
+    "question": "A gripper is an:",
+    "options": [
+      "Actuator",
+      "Sensor",
+      "Controller",
+      "Drive"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-115",
+    "question": "A home position is:",
+    "options": [
+      "Random pose",
+      "Defined reference pose",
+      "Max speed pose",
+      "Emergency stop"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-116",
+    "question": "Payload rating means:",
+    "options": [
+      "Robot weight",
+      "Max allowed load",
+      "Cable load",
+      "Motor torque"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-117",
+    "question": "Safety fence interlock does:",
+    "options": [
+      "Decorative",
+      "Stops robot when open",
+      "Moves robot faster",
+      "Changes TCP"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-118",
+    "question": "TCP stands for:",
+    "options": [
+      "Tool Center Point",
+      "Transmission Control Protocol",
+      "Total Control Position",
+      "Teach Control Panel"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-119",
+    "question": "Jogging a robot means:",
+    "options": [
+      "Running program",
+      "Manual incremental move",
+      "Tuning PID",
+      "Reset alarms"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-120",
+    "question": "Gantry robot primarily moves in:",
+    "options": [
+      "XYZ linear axes",
+      "Rotation only",
+      "Random path",
+      "No motion"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-121",
+    "question": "Which coordinate system follows tool tip?",
+    "options": [
+      "World",
+      "Joint",
+      "Tool/TCP",
+      "Base"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-122",
+    "question": "End-of-arm tooling is:",
+    "options": [
+      "Controller unit",
+      "Tool on robot wrist",
+      "Safety relay",
+      "Cable track"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-123",
+    "question": "Soft limits protect:",
+    "options": [
+      "Floor paint",
+      "Travel beyond set range",
+      "Network cables",
+      "Lighting"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-124",
+    "question": "A robot program 'point' is:",
+    "options": [
+      "A variable",
+      "A taught position",
+      "A sensor",
+      "A fuse"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-125",
+    "question": "Zeroing/ mastering is used to:",
+    "options": [
+      "Set time",
+      "Align encoder references",
+      "Update firmware",
+      "Change payload"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-126",
+    "question": "A singularity is:",
+    "options": [
+      "No error",
+      "Loss of one DOF near alignment",
+      "Max speed point",
+      "Robot crash"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-127",
+    "question": "Speed override 10% means:",
+    "options": [
+      "Faster",
+      "Slower",
+      "Exact program speed",
+      "Jogging only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-128",
+    "question": "Dry run mode typically:",
+    "options": [
+      "Disables outputs",
+      "Enables max torque",
+      "Disables motion",
+      "Deletes program"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-129",
+    "question": "Which is a common robot language?",
+    "options": [
+      "RAPID/KRL",
+      "SQL",
+      "HTML",
+      "Bash"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-130",
+    "question": "A pendant deadman switch is:",
+    "options": [
+      "Decoration",
+      "Safety hold-to-run",
+      "E-stop",
+      "Power light"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-131",
+    "question": "Tool weight not set causes:",
+    "options": [
+      "Better accuracy",
+      "Poor accuracy & overload",
+      "No effect",
+      "Higher voltage"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-132",
+    "question": "Vision-guided robotics uses:",
+    "options": [
+      "Cameras for locating parts",
+      "RFID only",
+      "Audio",
+      "GPS"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-133",
+    "question": "Pick-and-place cycle time is:",
+    "options": [
+      "Time per cycle",
+      "Payload mass",
+      "Frame rate",
+      "Voltage drop"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-134",
+    "question": "A gantry cable carrier guides:",
+    "options": [
+      "Air only",
+      "Cables/hoses along travel",
+      "Robot base",
+      "Encoder"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-135",
+    "question": "Reach of robot is:",
+    "options": [
+      "Max horizontal distance",
+      "Vertical height",
+      "Weight",
+      "Speed"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-136",
+    "question": "Ohm's law is:",
+    "options": [
+      "V=I/R",
+      "V=I×R",
+      "V=R/I",
+      "V=I+R"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-137",
+    "question": "Frequency of mains in many countries:",
+    "options": [
+      "25 Hz",
+      "50 Hz",
+      "75 Hz",
+      "120 Hz"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-138",
+    "question": "Earth/ground wire color (IEC):",
+    "options": [
+      "Blue",
+      "Green-yellow",
+      "Brown",
+      "Black"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-139",
+    "question": "Circuit breaker protects against:",
+    "options": [
+      "Overcurrent/short",
+      "Overvoltage only",
+      "Temperature only",
+      "Moisture"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-140",
+    "question": "Fuse action is:",
+    "options": [
+      "Resettable switch",
+      "Melts to open",
+      "Closes on fault",
+      "Measures voltage"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-141",
+    "question": "MCB stands for:",
+    "options": [
+      "Main Cable Box",
+      "Miniature Circuit Breaker",
+      "Motor Control Board",
+      "Machine Control Box"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-142",
+    "question": "RCD/ELCB detects:",
+    "options": [
+      "Overcurrent",
+      "Earth leakage current",
+      "Frequency drift",
+      "Power factor"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-143",
+    "question": "IP54 enclosure means:",
+    "options": [
+      "Dust tight & waterproof",
+      "Limited dust & splash",
+      "Submersible",
+      "Indoor only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-144",
+    "question": "Star-delta starter reduces:",
+    "options": [
+      "Starting current",
+      "Voltage rating",
+      "Frequency",
+      "Cable size"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-145",
+    "question": "Three-phase has how many line conductors?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-146",
+    "question": "Shielded cable reduces:",
+    "options": [
+      "Voltage",
+      "EMI noise",
+      "Current",
+      "Frequency"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-147",
+    "question": "A contactor is used to:",
+    "options": [
+      "Measure current",
+      "Switch power to motors",
+      "Store energy",
+      "Rectify AC"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-148",
+    "question": "A relay differs from contactor mainly by:",
+    "options": [
+      "Coil",
+      "Size/duty & current rating",
+      "Contacts",
+      "Operation"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-149",
+    "question": "Earthing is done to:",
+    "options": [
+      "Increase voltage",
+      "Protect from fault shock",
+      "Lower power factor",
+      "Increase speed"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-150",
+    "question": "A multimeter measures:",
+    "options": [
+      "Voltage/current/resistance",
+      "Weight",
+      "Speed",
+      "Color"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-151",
+    "question": "IEC symbol for protective earth is:",
+    "options": [
+      "~",
+      "⏚",
+      "+",
+      "-"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-152",
+    "question": "Cable cross-section unit:",
+    "options": [
+      "mm²",
+      "mm",
+      "m",
+      "N·m"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-153",
+    "question": "Harmonics are multiples of:",
+    "options": [
+      "Voltage",
+      "Current",
+      "Fundamental frequency",
+      "Distance"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-154",
+    "question": "Isolation transformer provides:",
+    "options": [
+      "Direct short",
+      "Galvanic isolation",
+      "Higher leakage",
+      "Lower frequency"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-155",
+    "question": "Lockout-tagout (LOTO) is used for:",
+    "options": [
+      "Faster startup",
+      "Safe maintenance isolation",
+      "Better graphics",
+      "Network setup"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-156",
+    "question": "IPC stands for:",
+    "options": [
+      "Industrial PC",
+      "Internal Process Controller",
+      "Integrated Power Converter",
+      "Interface Power Cable"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-157",
+    "question": "An IPC is typically used for:",
+    "options": [
+      "Heavy lifting",
+      "Supervision/SCADA & control apps",
+      "Lubrication",
+      "Cooling only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-158",
+    "question": "SSD vs HDD in IPCs:",
+    "options": [
+      "HDD faster",
+      "SSD faster & shock resistant",
+      "Same speed",
+      "HDD more durable to shock"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-159",
+    "question": "Fanless IPCs use:",
+    "options": [
+      "Active fans",
+      "Passive cooling & heat sinks",
+      "Water cooling only",
+      "No cooling"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-160",
+    "question": "Common OS on IPC:",
+    "options": [
+      "Android only",
+      "Windows/Linux",
+      "iOS",
+      "DOS only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-161",
+    "question": "Industrial displays often are:",
+    "options": [
+      "Capacitive/resistive touch",
+      "CRT only",
+      "No touch",
+      "OLED only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-162",
+    "question": "Panel PC is:",
+    "options": [
+      "PLC module",
+      "Display+PC all-in-one",
+      "Only display",
+      "Only PC"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-163",
+    "question": "UPS for IPC provides:",
+    "options": [
+      "More CPU speed",
+      "Backup power & safe shutdown",
+      "More RAM",
+      "Cooling"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-164",
+    "question": "Watchdog timer in IPC is for:",
+    "options": [
+      "Graphics",
+      "System reset on hang",
+      "Networking",
+      "Audio"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-165",
+    "question": "SSD health is measured by:",
+    "options": [
+      "TBW/S.M.A.R.T.",
+      "RPM",
+      "Lux",
+      "AWG"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-166",
+    "question": "Industrial Ethernet ports on IPC are:",
+    "options": [
+      "Standard RJ45",
+      "Only fiber",
+      "Only USB",
+      "Only RS-232"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-167",
+    "question": "COM/mini-PCIe/M.2 slots are for:",
+    "options": [
+      "Batteries",
+      "Expansion cards",
+      "Cables",
+      "Fans"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-168",
+    "question": "SCADA stands for:",
+    "options": [
+      "Supervisory Control and Data Acquisition",
+      "System Control And Data Analysis",
+      "Sequential Control And Drive Automation",
+      "Secure Control And Data Access"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-169",
+    "question": "Panel mounting refers to:",
+    "options": [
+      "Wall paint",
+      "Fixing PC into cabinet panel",
+      "Cable crimping",
+      "IP rating"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-170",
+    "question": "An industrial grade PSU is selected for:",
+    "options": [
+      "Office use",
+      "Temperature/vibration tolerance",
+      "Audio quality",
+      "Color depth"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-171",
+    "question": "RAID 1 on IPC means:",
+    "options": [
+      "Striping",
+      "Mirroring for redundancy",
+      "Parity only",
+      "JBOD"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-172",
+    "question": "Remote desktop allows:",
+    "options": [
+      "Physical move",
+      "Remote access to IPC GUI",
+      "Serial only",
+      "File deletion"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-173",
+    "question": "Edge computing means:",
+    "options": [
+      "Cloud only",
+      "Compute near machines",
+      "No compute",
+      "Only storage"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-174",
+    "question": "Embedded IPCs often run:",
+    "options": [
+      "Real-time OS or Linux",
+      "Only Windows",
+      "Only Android",
+      "Only macOS"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-175",
+    "question": "DIN-rail PC mounts on:",
+    "options": [
+      "Robot wrist",
+      "DIN rail in panel",
+      "Floor",
+      "Ceiling"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-176",
+    "question": "Modbus RTU typically runs over:",
+    "options": [
+      "Ethernet",
+      "RS-485",
+      "USB",
+      "CAN-FD"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-177",
+    "question": "EtherNet/IP is based on:",
+    "options": [
+      "Profinet",
+      "CIP over Ethernet",
+      "Modbus over IP",
+      "CANopen"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-178",
+    "question": "PROFINET uses which topology?",
+    "options": [
+      "Token ring",
+      "Industrial Ethernet star/line",
+      "Loop only",
+      "Point-to-point only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-179",
+    "question": "RS-232 is:",
+    "options": [
+      "Differential",
+      "Single-ended serial",
+      "Parallel",
+      "Fiber"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-180",
+    "question": "Baud rate refers to:",
+    "options": [
+      "Voltage",
+      "Symbols per second",
+      "Current",
+      "Distance"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-181",
+    "question": "Which cable is used for Ethernet?",
+    "options": [
+      "Coax only",
+      "Twisted pair CAT5e/6",
+      "Two-wire unshielded power",
+      "Fiber only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-182",
+    "question": "IP address identifies:",
+    "options": [
+      "A network",
+      "A device on a network",
+      "A cable",
+      "A sensor only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-183",
+    "question": "Subnet mask divides:",
+    "options": [
+      "Hardware",
+      "Network and host portions",
+      "Power and ground",
+      "Serial and parallel"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-184",
+    "question": "DHCP provides:",
+    "options": [
+      "Dynamic IP assignment",
+      "Encryption",
+      "Routing only",
+      "QoS"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-185",
+    "question": "A managed switch can:",
+    "options": [
+      "Only connect cables",
+      "Configure VLANs & diagnostics",
+      "Play audio",
+      "Boost power"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-186",
+    "question": "Ping command checks:",
+    "options": [
+      "Storage",
+      "Network reachability",
+      "CPU usage",
+      "Voltage"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-187",
+    "question": "Which protocol is for SCADA telemetry?",
+    "options": [
+      "HTTP",
+      "MQTT/DNP3",
+      "POP3",
+      "FTP only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-188",
+    "question": "Fiber optic cables transmit via:",
+    "options": [
+      "Electrons",
+      "Light",
+      "Sound",
+      "Heat"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-189",
+    "question": "Shielded cables help reduce:",
+    "options": [
+      "EMI",
+      "Voltage",
+      "Speed",
+      "IP address"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-190",
+    "question": "CANopen is built on:",
+    "options": [
+      "RS-232",
+      "CAN bus",
+      "Ethernet",
+      "Wi‑Fi"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-191",
+    "question": "Profibus DP uses:",
+    "options": [
+      "RS-485",
+      "Ethernet",
+      "USB",
+      "RS-232"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-192",
+    "question": "Which device converts RS-232 to RS-485?",
+    "options": [
+      "Switch",
+      "Gateway/Converter",
+      "Repeater",
+      "Router"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-193",
+    "question": "Static IP means:",
+    "options": [
+      "Changes daily",
+      "Fixed configured address",
+      "Random address",
+      "Remote only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-194",
+    "question": "PoE stands for:",
+    "options": [
+      "Power over Ethernet",
+      "Protocol over Ethernet",
+      "Position over Encoder",
+      "Power over Encoder"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-195",
+    "question": "Which layer does MAC address belong to?",
+    "options": [
+      "Application",
+      "Transport",
+      "Data Link",
+      "Physical"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-196",
+    "question": "TCP is:",
+    "options": [
+      "Connection-oriented",
+      "Connectionless",
+      "Analog",
+      "Fiber only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-197",
+    "question": "UDP is:",
+    "options": [
+      "Connection-oriented",
+      "Connectionless",
+      "Parallel",
+      "Encrypted only"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-198",
+    "question": "Latency is:",
+    "options": [
+      "Bandwidth",
+      "Delay",
+      "Packet size",
+      "Voltage"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-199",
+    "question": "A gateway is used to:",
+    "options": [
+      "Tie shoes",
+      "Connect different networks/protocols",
+      "Increase voltage",
+      "Reduce current"
+    ],
+    "correctindex": 0
+  },
+  {
+    "id": "L1-200",
+    "question": "QoS is used to:",
+    "options": [
+      "Prioritize traffic types",
+      "Change IP class",
+      "Encrypt data",
+      "Measure temperature"
+    ],
+    "correctindex": 0
+  },
+  {
+    "question": "Which tool is required to identify the Open circuit?",
+    "options": [
+      "Tester",
+      "Multimeter",
+      "Power meter",
+      "Volt meter"
+    ],
+    "correctindex": 2
+  },
+  {
+    "question": "What is the use of Relay in control panel?",
+    "options": [
+      "Output isolation",
+      "Switching",
+      "Signal convert",
+      "Power supply"
+    ],
+    "correctindex": 1
+  }
+]

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assessment Result</title>
+  <style>
+    body { 
+      font-family: "Segoe UI", Arial, sans-serif; 
+      background: #f0f2f5; 
+      margin: 0; 
+      padding: 20px; 
+      animation: fadeIn 0.8s ease-in;
+    }
+    .card { 
+      background: white; 
+      max-width: 850px; 
+      margin: 20px auto; 
+      padding: 30px; 
+      border-radius: 14px; 
+      box-shadow: 0 6px 14px rgba(0,0,0,0.1); 
+      animation: slideUp 0.7s ease;
+    }
+    h2 { 
+      color: #2c3e50; 
+      margin-top: 0; 
+      text-align: center; 
+    }
+    .status { 
+      font-weight: bold; 
+      padding: 6px 14px; 
+      border-radius: 6px; 
+      font-size: 16px; 
+    }
+    .status.pass { 
+      background: #c8e6c9; 
+      color: #2e7d32; 
+      box-shadow: 0 0 10px #81c784; 
+      animation: pulse 1.5s infinite; 
+    }
+    .status.fail { 
+      background: #ffcdd2; 
+      color: #b71c1c; 
+      animation: shake 0.5s; 
+    }
+
+    .download-btn { 
+      display: inline-block; 
+      margin-top: 15px; 
+      padding: 12px 20px; 
+      background: #4CAF50; 
+      color: white; 
+      text-decoration: none; 
+      border-radius: 8px; 
+      transition: 0.2s;
+    }
+    .download-btn:hover { 
+      background: #45a049; 
+      transform: scale(1.05); 
+    }
+
+    table { 
+      width: 100%; 
+      border-collapse: collapse; 
+      margin-top: 20px; 
+    }
+    table th, table td { 
+      border: 1px solid #ddd; 
+      padding: 12px; 
+      text-align: left; 
+      font-size: 14px;
+    }
+    table th { 
+      background: #007bff; 
+      color: white; 
+    }
+    tr.correct { background: #e8f5e9; }
+    tr.wrong { background: #ffebee; }
+    tr.fade-row { opacity: 0; animation: fadeIn 0.8s forwards; }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    @keyframes pulse { 0% { box-shadow: 0 0 5px #81c784; } 50% { box-shadow: 0 0 20px #4CAF50; } 100% { box-shadow: 0 0 5px #81c784; } }
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-8px); }
+      40%, 80% { transform: translateX(8px); }
+    }
+
+    /* Button */
+    .btn-primary {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 28px;
+      background: linear-gradient(45deg, #007bff, #00c6ff);
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .btn-primary:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Confetti animation for PASS */
+    .confetti {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 1000;
+    }
+    .confetti-piece {
+      width: 10px;
+      height: 14px;
+      background: #f39c12;
+      position: absolute;
+      top: -20px;
+      opacity: 0.8;
+      animation: fall 3s linear forwards;
+    }
+    @keyframes fall {
+      to { transform: translateY(110vh) rotate(720deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Assessment Result</h2>
+    <p><strong>Name:</strong> {{ user.name }}</p>
+    <p><strong>Vendor:</strong> {{ user.vendor }}</p>
+    <p><strong>EMP ID:</strong> {{ user.emp_id }}</p>
+    <p><strong>Skill Level:</strong> {{ user.level }}</p>
+    <p><strong>Score:</strong> {{ score }}/{{ total }}</p>
+    <p><strong>Result:</strong> 
+      <span class="status {{ 'pass' if result == 'PASS' else 'fail' }}">{{ result }}</span>
+    </p>
+
+    {% if result == 'PASS' %}
+      <p><strong>Unique ID:</strong> {{ unique_id }}</p>
+      <a class="download-btn" href="/download/{{ unique_id }}">Download Certificate (PDF)</a>
+    {% else %}
+      <p style="color:#b71c1c;"><em>No certificate generated for failed attempts.</em></p>
+    {% endif %}
+
+    <div style="text-align:center;">
+      <a href="/" class="btn-primary">Start New Assessment</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Question Review</h2>
+    <table>
+      <tr>
+        <th>#</th>
+        <th>Question</th>
+        <th>Your Answer</th>
+        <th>Correct Answer</th>
+      </tr>
+      {% for q, a, correct in qa_pairs %}
+      <tr class="fade-row {{ 'correct' if a and a.strip().lower() == correct.strip().lower() else 'wrong' }}" style="animation-delay: {{ loop.index * 0.2 }}s">
+        <td>{{ loop.index }}</td>
+        <td>{{ q.question }}</td>
+        <td>{{ a if a else "Not answered" }}</td>
+        <td>{{ correct }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  <!-- Confetti for PASS -->
+  {% if result == 'PASS' %}
+  <div class="confetti">
+    {% for i in range(50) %}
+      <div class="confetti-piece" style="left: {{ (i*2) % 100 }}%; background: hsl({{ i*30 }}, 80%, 50%); animation-delay: {{ i*0.1 }}s;"></div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Skill Assessment — Start</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+</head>
+<body>
+<style>
+ body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(135deg, #eef2f3, #d9e4ec);
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 650px;
+    margin: 3rem auto;
+    padding: 2rem;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    animation: slide-up 0.6s ease;
+  }
+  
+  .field {
+    margin-bottom: 1.4rem;
+  }
+  
+  .field label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.4rem;
+    color: #2c3e50;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(52,152,219,0.2);
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-primary {
+    background: #3498db;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background: #2980b9;
+  }
+  
+  .flash {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .flash-error {
+    background: #ffecec;
+    color: #d9534f;
+    border: 1px solid #f5c2c0;
+  }
+  
+  @keyframes slide-up {
+    from { transform: translateY(20px); opacity: 0; }
+    to   { transform: translateY(0); opacity: 1; }
+  }
+  </style>
+  <div class="container fade-in">
+    <header class="header">
+      <h1>🚀 Skill Assessment</h1>
+      <p class="subtitle">Enter your details and pick a skill level to begin a <strong>10-question assessment</strong>.</p>
+    </header>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+      <div class="flash flash-error">
+        {% for msg in messages %}
+          <div class="flash-msg">⚠️ {{ msg }}</div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    {% endwith %}
+
+    <form method="post" action="{{ url_for('start') }}" class="card form-card">
+      <div class="field">
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" required placeholder="Enter your full name">
+      </div>
+
+      <div class="field">
+        <label for="vendor">Vendor Name</label>
+        <input id="vendor" name="vendor" type="text" required placeholder="Enter your vendor/company">
+      </div>
+
+      <div class="field">
+        <label for="emp_id">Employee ID</label>
+        <input id="emp_id" name="emp_id" type="text" required placeholder="Enter your employee ID">
+      </div>
+
+      <div class="field">
+        <label for="current_level">Current Skill Level</label>
+        <select id="current_level" name="current_level" required>
+          <option value="" disabled selected>-- Select your current level --</option>
+          <option value="1">Level 1 — Basic</option>
+          <option value="2">Level 2 — Intermediate</option>
+          <option value="3">Level 3 — Advanced</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="exam_level">Choose Exam Skill Level</label>
+        <select id="exam_level" name="exam_level" required>
+          <option value="" disabled selected>-- Select exam level --</option>
+          <option value="1">Level 1 — Basic</option>
+          <option value="2">Level 2 — Intermediate</option>
+          <option value="3">Level 3 — Advanced</option>
+        </select>
+      </div>
+
+      <button class="btn btn-primary" type="submit">🎯 Start Assessment</button>
+    </form>
+  </div>
+</body>
+</html>

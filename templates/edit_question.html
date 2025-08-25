@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Edit Question - Level {{ level }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1d3557, #457b9d);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #1d0457;
+    }
+
+    .container {
+      background: #ffffff10;
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      padding: 40px 30px;
+      max-width: 650px;
+      width: 95%;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #f1faee;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    label {
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #e0e0e0;
+    }
+
+    input, textarea, select {
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: rgba(102, 100, 100, 0.9);
+      transition: all 0.3s ease;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    input:focus, textarea:focus, select:focus {
+      background: #ffffff;
+      box-shadow: 0 0 6px rgba(168, 218, 220, 0.9);
+    }
+
+    .btn {
+      padding: 14px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #1d3557;
+      background: #f1faee;
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #a8dadc;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 18px;
+      color: #a8dadc;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #f1faee;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>✏ Edit Question (Level {{ level }})</h1>
+
+    <form method="post">
+      <div class="field">
+        <label>Question</label>
+        <textarea name="question" required>{{ q["question"] }}</textarea>
+      </div>
+
+      <div class="field">
+        <label>Option 1</label>
+        <input type="text" name="opt1" value="{{ q['options'][0] }}" required>
+      </div>
+      <div class="field">
+        <label>Option 2</label>
+        <input type="text" name="opt2" value="{{ q['options'][1] }}" required>
+      </div>
+      <div class="field">
+        <label>Option 3</label>
+        <input type="text" name="opt3" value="{{ q['options'][2] }}" required>
+      </div>
+      <div class="field">
+        <label>Option 4</label>
+        <input type="text" name="opt4" value="{{ q['options'][3] }}" required>
+      </div>
+
+      <div class="field">
+        <label>Correct Answer</label>
+        <select name="correct" required>
+          <option value="0" {% if q["correctindex"] == 0 %}selected{% endif %}>Option 1</option>
+          <option value="1" {% if q["correctindex"] == 1 %}selected{% endif %}>Option 2</option>
+          <option value="2" {% if q["correctindex"] == 2 %}selected{% endif %}>Option 3</option>
+          <option value="3" {% if q["correctindex"] == 3 %}selected{% endif %}>Option 4</option>
+        </select>
+      </div>
+
+      <button class="btn" type="submit">💾 Save Changes</button>
+    </form>
+
+    <p><a href="{{ url_for('admin_questions', level=level) }}">⬅ Back to Questions</a></p>
+  </div>
+</body>
+</html>

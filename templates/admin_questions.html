@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Manage Questions - Level {{ level }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1d3557, #457b9d);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: #f1faee;
+    }
+
+    .container {
+      background: #ffffff10;
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      padding: 40px 30px;
+      max-width: 20000px;
+      width: 95%;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #f1faee;
+      text-align: center;
+    }
+
+    .add-btn {
+      display: inline-block;
+      padding: 12px 18px;
+      background: #f1faee;
+      color: #1d3557;
+      font-weight: 600;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      margin-bottom: 25px;
+    }
+
+    .add-btn:hover {
+      background: #a8dadc;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    li {
+      background: rgba(255, 255, 255, 0.9);
+      color: #1d3557;
+      padding: 18px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    li:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
+
+    li b {
+      font-size: 1.05rem;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .options {
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+      color: #333;
+    }
+
+    .correct {
+      font-size: 0.95rem;
+      font-weight: bold;
+      color: #2a9d8f;
+    }
+
+    .edit-link {
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 0.9rem;
+      color: #457b9d;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .edit-link:hover {
+      color: #1d3557;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>📋 Questions for Level {{ level }}</h2>
+    <a href="{{ url_for('add_question', level=level) }}" class="add-btn">➕ Add New Question</a>
+
+    <ul>
+    {% for q in questions %}
+      <li>
+        <b>{{ loop.index }}. {{ q.question }}</b>
+        <div class="options">Options: {{ q.options }}</div>
+        <div class="correct">✅ Correct: {{ q.options[q.correctindex] }}</div>
+        <a href="{{ url_for('edit_question', level=level, index=loop.index0) }}" class="edit-link">✏ Edit</a>
+      </li>
+    {% endfor %}
+    </ul>
+    <p>
+      <a href="{{ url_for('admin_dashboard') }}" class="btn">⬅ Back to Admin Dashboard</a>
+    </p>
+    
+  </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Admin Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1d3557, #457b9d);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: #f1faee;
+    }
+
+    .dashboard {
+      background: #ffffff10;
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      padding: 40px 30px;
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #f1faee;
+    }
+
+    .logout {
+      display: inline-block;
+      margin-bottom: 25px;
+      color: #ffb703;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .logout:hover {
+      color: #f1faee;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    li {
+      margin: 0;
+    }
+
+    ul a {
+      display: block;
+      padding: 14px 18px;
+      background: #f1faee;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1rem;
+      color: #1d3557;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    ul a:hover {
+      background: #a8dadc;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <h2>📊 Admin Dashboard</h2>
+    <p><a href="{{ url_for('admin_logout') }}" class="logout">🚪 Logout</a></p>
+    <ul>
+      <li><a href="{{ url_for('admin_questions', level=1) }}">⚙ Manage Level 1 Questions</a></li>
+      <li><a href="{{ url_for('admin_questions', level=2) }}">⚙ Manage Level 2 Questions</a></li>
+      <li><a href="{{ url_for('admin_questions', level=3) }}">⚙ Manage Level 3 Questions</a></li>
+    </ul>
+  </div>
+</body>
+</html>
